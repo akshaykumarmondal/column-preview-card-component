@@ -1,0 +1,140 @@
+body{
+
+    background-color: antiquewhite;
+}
+
+.main-container{
+
+    width: 1000px;
+    height: 590px;
+    /* border: 1px solid black; */
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub-container{
+    /* border: 1px solid black; */
+    height: 590px;
+    min-width: 33.2%;
+}
+
+.sub-container-1{
+
+    background-color: hsl(31, 77%, 52%);
+
+}
+.sub-container-2{
+
+    background-color: hsl(184, 100%, 22%);
+
+}
+.sub-container-3{
+
+    background-color: hsl(179, 100%, 13%);
+
+}
+.image{
+
+    display: block;
+    /* border: 1px solid black; */
+    margin: 2rem 2rem;
+    margin-bottom: 0;
+
+}
+
+.font-style{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    margin-left: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.8rem;
+    font-weight:bold;
+    color: white;
+
+}
+
+.para-style{
+
+    width: 66%;
+    /* border: 1px solid black; */
+    margin: 0 2rem;
+    margin-bottom: 1.8rem;
+    font-family: 'Outfit', sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+
+}
+
+.learn-container{
+
+    /* border: 1px solid black; */
+    width: 45%;
+    margin: 6rem 4rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 900;
+    background-color: antiquewhite;
+    color: hsl(31, 77%, 52%);;
+    border-top-left-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
+    border-bottom-left-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+}
+
+.learn-2{
+
+    margin-top: 6rem;
+    color: hsl(184, 100%, 22%);;
+}
+
+.learn-3{
+
+    color: hsl(179, 100%, 13%);;
+}
+
+@media (min-width: 320px) and (max-width:1000px) {
+
+    .main-container{
+
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .image{
+
+        width: 40px;
+
+    }
+
+    .font-style{
+
+        font-size: 1.6rem;
+
+    }
+
+    .para-style{
+
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+
+    }
+
+    .learn-container{
+        padding: .5rem .2rem;
+        font-size: .8rem;
+        margin-top: 1rem;
+        margin-left: 1.9rem;
+    }
+
+    .sub-container{
+
+        height: 60%;
+    }
+
+}
